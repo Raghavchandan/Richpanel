@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Payment</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="payment-container">
+            <div class="payment-details">
+                <h2>Complete Payment</h2>
+                <form class="payment-form"action="cancel.html" method="get">
+                    <div class="form-group">
+                        <label for="cardNumber">Card Number:</label>
+                        <input type="text" id="cardNumber" name="cardNumber" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="expiryMonth">Expiry Month:</label>
+                        <input type="text" id="expiryMonth" name="expiryMonth" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="expiryYear">Expiry Year:</label>
+                        <input type="text" id="expiryYear" name="expiryYear" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvc">CVC Code:</label>
+                        <input type="text" id="cvc" name="cvc" required>
+                    </div>
+                    <button type="submit" class="confirm-button">Confirm Payment</button>
+                </form>
+            </div>
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <p><strong>Plan Name:</strong> Premium</p>
+                <p><strong>Billing Cycle:</strong> Yearly</p>
+                <p><strong>Plan Price:</strong> 7000</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
